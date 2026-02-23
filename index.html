@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Quiz Game</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="style.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="quiz-container">
+            <h1>Jogo de Perguntas e Respostas</h1>
+            <div id="pergunta">A pergunta aparecerá aqui</div>
+            <div id="respostas"></div>
+            <div class="placar">
+                <p>✅ Acertos: <span id="acertos">0</span></p>
+                <p>❌ Erros: <span id="erros">0</span></p>
+            </div>
+            <div class="progresso-container">
+                <div id="barraProgresso"></div>
+            </div>
+            <p>⏱ Tempo da pergunta: <span id="tempoPergunta">0</span>s</p>
+            <p>🕒 Tempo total: <span id="tempoTotal">0</span>s</p>
+            <button id="proxima" onclick="proximaPergunta()">Próxima Pergunta</button>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
